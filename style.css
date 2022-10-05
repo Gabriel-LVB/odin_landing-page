@@ -40,6 +40,7 @@ li{
     object-fit: cover;
     width: 450px;
     height: 220px;
+    border-radius: 5px;
 }
 
 .header-content h1{
@@ -85,7 +86,7 @@ li{
 .content-items{
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 3rem;
     margin-bottom: 8rem;
 }
 
@@ -97,7 +98,7 @@ li{
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #434549;
+    color: #646567;
 }
 
 .item img{
@@ -130,4 +131,39 @@ li{
     font-weight: bold;
     text-align: end;
     margin-right: 3.5rem;
+    color: #162232;
+}
+
+.content-call{
+    background-color: #3882f6;
+    width: 60vw;
+    border-radius: 20px;
+    margin: 10vh auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+.content-call h1{
+    font-size: 1.7rem
+}
+
+.content-call button{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 40px;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: #e8eaf0;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
