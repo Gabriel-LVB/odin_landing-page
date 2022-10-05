@@ -108,3 +108,26 @@ li{
     border: 4px solid #3882f6;
     margin-bottom: 10px;
 }
+
+.content-quote{
+    background-color: #e8eaf0;
+    height: 60vh;
+    padding: 45px 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote{
+    font-style: italic;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    color: #62666e;
+}
+
+.author{
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: end;
+    margin-right: 3.5rem;
+}
